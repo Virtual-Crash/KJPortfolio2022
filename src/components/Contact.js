@@ -10,13 +10,12 @@ import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: "#233",
+    background: "#424242",
     height: "100vh",
   },
   heading: {
-    color: "tomato",
+    color: "#00838f",
     textAlign: "center",
-    textTransform: "uppercase",
     marginBottom: "1rem",
   },
   form: {
@@ -30,8 +29,8 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tan",
+    color: "#00838f",
+    borderColor: "#e0e0e0",
   },
   field: {
     margin: "1rem 0rem",
@@ -41,21 +40,21 @@ const useStyles = makeStyles((theme) => ({
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "tomato",
+      color: "#00838f",
     },
     "& label": {
-      color: "tan",
+      color: "#e0e0e0",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "tan",
+        borderColor: "#e0e0e0",
       },
       "&:hover fieldset": {
-        borderColor: "tan",
+        borderColor: "#e0e0e0",
       },
       "&.Mui-focused fieldset": {
         color: "#fff",
-        borderColor: "tan",
+        borderColor: "#e0e0e0",
       },
     },
   },
@@ -68,7 +67,7 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+            Contact Me
           </Typography>
           <InputField
             fullWidth={true}
@@ -97,7 +96,7 @@ const Contact = () => {
             endIcon={<Send />}
             className={classes.button}
           >
-            Contact Me
+            Send
           </Button>
         </Box>
       </Grid>

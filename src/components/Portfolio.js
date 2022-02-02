@@ -19,7 +19,7 @@ import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#424242",
     height: "100%",
   },
   cardContainer: {

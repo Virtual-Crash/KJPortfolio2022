@@ -1,0 +1,4 @@
+Color For Text #00838f
+Color For boarders #e0e0e0
+Color For background #424242
+Color For Text for input feild #fff
