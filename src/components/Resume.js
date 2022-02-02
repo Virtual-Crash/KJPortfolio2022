@@ -138,9 +138,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Provided three years of learning and experience in a 
+            Was provided three years of learning and experience in a 
             variety of programming languages HTML, CSS, JavaScript, C#, C++ and SQL.
-            Collaborated with project members in groups ranging from three to 5 members.
+            Collaborated with project members in groups ranging from three to five members.
           </Typography>
         </Box>
         <Typography
