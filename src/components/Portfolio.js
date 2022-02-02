@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Social Loopz",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
@@ -38,7 +38,7 @@ const projects = [
     image: project1,
   },
   {
-    name: "Project 2",
+    name: "Beginner Home Page",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
@@ -46,7 +46,7 @@ const projects = [
     image: project2,
   },
   {
-    name: "Project 3",
+    name: "Pokemon API",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
@@ -54,7 +54,7 @@ const projects = [
     image: project3,
   },
   {
-    name: "Project 4",
+    name: "Network +",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
@@ -62,7 +62,7 @@ const projects = [
     image: project4,
   },
   {
-    name: "Project 5",
+    name: "A+ ",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
@@ -70,11 +70,8 @@ const projects = [
     image: project5,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Microsoft Suite Certified",
+    description: `Certified Specialist in Outlook, Excel, PowerPoint, and Word.`,
     image: project6,
   },
 ];
