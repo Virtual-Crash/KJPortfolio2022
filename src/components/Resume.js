@@ -138,10 +138,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Provided three years of learning and experience in a 
+            variety of programming languages HTML, CSS, JavaScript, C#, C++ and SQL.
+            Collaborated with project members in groups ranging from three to 5 members.
           </Typography>
         </Box>
         <Typography
@@ -166,10 +165,12 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Resolved hardware and software issues with printers, 
+            applications, email, and operating systems.
+            Restore data, operating systems, files, documents, and drivers
+            Implemented company policies, technical procedures, and standards 
+            for preserving the integrity and security of data, reports, and access of client devices. 
+
           </Typography>
         </Box>
         <Typography
@@ -194,10 +195,13 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+          Identified operations risk due to lack of training. 
+          Developed training materials and provided individual expertise which 
+          resulted in reducing on call hours by 50%.  
+        	Received first generation hyper mobile satellite terminal. 
+          Documented set up guide for generalist network operators which resulted 
+          in reduced dependency on subject matter experts.
+
           </Typography>
         </Box>
         <Typography
@@ -222,10 +226,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Grew a deeper understanding of my career trajectory and skills
+            needed to get there. Honed in on being an efficient note taker, and
+            developed a more adaptable nature.
           </Typography>
         </Box>
         <Typography
@@ -250,10 +253,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Provided a safe alternative to drunk driving by escorting inebriated individuals’ home 
+            Over 150 hours logged.
+
           </Typography>
         </Box>
         <Typography
@@ -278,10 +280,10 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Deployed and maintained a three-tier secure network, including Brocade,
+             Cisco, and Juniper router and switches, Cisco VoIP Communications Manager, 
+             General Dynamics Encryption devices, Virtual Machine environments using VMware, 
+             NetApp Raid 10 Mirrored and Striped storage devices, SNMPc device manager, and OS imaging
           </Typography>
         </Box>
         <Typography
@@ -306,10 +308,8 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Oversaw daily operations of over 150 desktop computers and 100 Xbox consoles. 
+            Provided troubleshooting and maintinence on client used devices.
           </Typography>
         </Box>
       </Box>
