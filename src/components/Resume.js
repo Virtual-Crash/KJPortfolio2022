@@ -113,14 +113,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Experience
       </Typography>
       <Box component="div" className={classes.timeLine}>
-        <Typography
+      <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -128,10 +128,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Bachelor of Science, Information Systems and Computer Science
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Seattle Pacific University, Seattle, WA. 
           </Typography>
           <Typography
             variant="subtitle1"
@@ -148,7 +148,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -156,38 +156,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Advanced Repair Agent
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2015
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Fullstack Javascript
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Geek Sqaud, Lynnwood, WA.
           </Typography>
           <Typography
             variant="subtitle1"
@@ -212,10 +184,122 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            Networking Infrastructure Manager
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            US Army, Joint Base Lewis-McChord, WA.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2016
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Associate of Arts, General Studies
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Central Texas College, Killeen, TX.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2015
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Volunteer
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            No DUI of Killeen, Killeen, TX.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2014
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Node Operations Specialist
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            US Army, Fort Hood, TX.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
+            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
+            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
+            repudiandae, rerum necessitatibus nisi mollitia.
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2009
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            LAN Center Associate
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Howie's Game Shack, Mesa, AZ.
           </Typography>
           <Typography
             variant="subtitle1"
