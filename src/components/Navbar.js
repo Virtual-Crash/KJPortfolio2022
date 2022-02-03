@@ -47,6 +47,9 @@ const useStyles = makeStyles((theme) => ({
   listItem: {
     color: "#00838f",
   },
+  listText: {
+    color: "white",
+  }
 }));
 
 const menuItems = [
