@@ -11,11 +11,13 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 import project1 from "../images/SocialLoopz.png";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/Pokemon.png";
-import project4 from "../images/CompTIA Network+ Badge.png";
-import project5 from "../images/CompTIA A+ Badge.png";
-import project6 from "../images/Microsoft.png";
+import project2 from "../images/Lib.png";
+import project3 from "../images/Hang.png";
+import project4 from "../images/Pokemon.png";
+import project5 from "../images/CompTIA Network+ Badge.png";
+import project6 from "../images/CompTIA A+ Badge.png";
+import project7 from "../images/Microsoft.png";
+
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -42,16 +44,24 @@ const projects = [
     image: project1,
   },
   {
+    name: "The Library",
+    description: `This is the second project I built while in school for my midterm. This implements small database features such as looking for
+    books, adding books to list, and changing a book's information already in the list. This is the first site that has a consistent feel to it.`,
+    image: project2,
+    link: "https://guarded-scrubland-77051.herokuapp.com/update-book.html",
+  },
+  {
     name: "Beginner Home Page",
     description: `This is the very first web server I built while in school. As you progress through the different pages, new tools, content and skills improve.
     The pages feature implementing images, styling pages, nav bars, bootstraps, and my very first game Hangman!`,
-    image: project2,
+    image: project3,
+    link: "https://shrouded-basin-10273.herokuapp.com/index.html",
   },
   {
     name: "Pokemon API",
     description: `This is the first API integration project I worked on. Currently it takes a text input and outputs information about the Pokemon
     that was referenced. I am actively working on the front-end so that it will accept user input from the web-server.`,
-    image: project3,
+    image: project4,
     link: "https://pokemon-info.herokuapp.com/",
   },
   {
@@ -59,7 +69,7 @@ const projects = [
     description: `CompTIA Network+ validates the technical skills needed to securely establish, maintain and
      troubleshoot the essential networks that businesses rely on. Offers skills in cloud computing best practices and 
      typical service models. Tests critical security concepts to helping networking professionals work with security practitioners. `,
-    image: project4,
+    image: project5,
     link: "https://www.comptia.org/certifications/network",
   },
   {
@@ -68,13 +78,13 @@ const projects = [
     systems, including Windows, Mac, Linux, Chrome OS, Android and iOS. Support of basic IT infrastructure and networking.
     Troubleshooting and problem solving core services and support challenges while applying best practices for documentation, 
     change management, and scripting `,
-    image: project5,
+    image: project6,
     link: "https://www.comptia.org/certifications/a",
   },
   {
     name: "Microsoft Suite Certified",
     description: `Certified Specialist in Outlook, Excel, PowerPoint, and Word.`,
-    image: project6,
+    image: project7,
     link: "https://support.microsoft.com/en-us/topic/earn-a-microsoft-office-specialist-mos-certification-0885c944-167c-51ea-1cdc-8f65952bd1b8",
   },
 ];
