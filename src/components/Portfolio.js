@@ -10,7 +10,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
+import project1 from "../images/SocialLoopz.png";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/Pokemon.png";
 import project4 from "../images/CompTIA Network+ Badge.png";
@@ -35,26 +35,22 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Social Loopz",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
+    description: `Social Loopz will provide a convenient and simple interface 
+    where you and others can manage multiple social media accounts from one platform. Just like how email clients have useful features to automate tasks, 
+    Social Loopz will automate common actions such as consuming feeds and posting content. We will define what a one-stop shop application 
+    will look like that promotes a healthier screen time balance. `,
     image: project1,
   },
   {
     name: "Beginner Home Page",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `This is the very first web server I built while in school. As you progress through the different pages, new tools, content and skills improve.
+    The pages feature implementing images, styling pages, nav bars, bootstraps, and my very first game Hangman!`,
     image: project2,
   },
   {
     name: "Pokemon API",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `This is the first API integration project I worked on. Currently it takes a text input and outputs information about the Pokemon
+    that was referenced. I am actively working on the front-end so that it will accept user input from the web-server.`,
     image: project3,
     link: "https://pokemon-info.herokuapp.com/",
   },
