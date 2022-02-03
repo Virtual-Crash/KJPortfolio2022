@@ -7,6 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 import Send from "@material-ui/icons/Send";
+import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
@@ -16,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
   heading: {
     color: "#00838f",
     textAlign: "center",
+    marginTop: "1rem",
     marginBottom: "1rem",
   },
   form: {
@@ -29,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
+    marginBottom: "1rem",
     color: "#00838f",
     borderColor: "#e0e0e0",
   },
@@ -98,6 +101,7 @@ const Contact = () => {
           >
             Send
           </Button>
+          <Footer />
         </Box>
       </Grid>
     </Box>
