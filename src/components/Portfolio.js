@@ -56,6 +56,7 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project3,
+    link: "https://pokemon-info.herokuapp.com/",
   },
   {
     name: "Network +",
