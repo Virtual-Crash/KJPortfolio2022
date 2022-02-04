@@ -66,18 +66,18 @@ const projects = [
     description: `The second project I built while in school for my midterm. This implements small database features such as looking for
     books, adding books to list, and changing a book's information already in the list. This is the first site that has a consistent feel to it.`,
     image: project3,
-    personalLink: "",
-    infoLink: "https://guarded-scrubland-77051.herokuapp.com/index.html",
+    personalLink: "https://guarded-scrubland-77051.herokuapp.com/index.html",
+    infoLink: "https://www.w3schools.com/js/js_maps.asp",
   },
   {
     name: "Beginner Home Page",
     tag: "2020 Freshman Project",
-    langUsed: "JavaScript, CSS, HTML",
+    langUsed: "C++, CSS, HTML",
     description: `This is the very first web server I built while in school. As you progress through the different pages, new tools, content and skills improve.
     The pages feature implementing images, styling pages, nav bars, bootstraps, and my very first game Hangman!`,
     image: project4,
-    personalLink: "",
-    infoLink: "https://shrouded-basin-10273.herokuapp.com/index.html",
+    personalLink: "https://shrouded-basin-10273.herokuapp.com/index.html",
+    infoLink: "https://www.w3schools.com/cpp/default.asp",
   },
   {
     name: "Pokemon API",
@@ -86,8 +86,8 @@ const projects = [
     description: `This is the first API integration project I worked on. Currently it takes a text input and outputs information about the Pokemon
     that was referenced. I am actively working on the front-end so that it will accept user input from the web-server.`,
     image: project5,
-    personalLink: "",
-    infoLink: "https://pokemon-info.herokuapp.com/",
+    personalLink: "https://pokemon-info.herokuapp.com/",
+    infoLink: "https://pokeapi.co/",
   },
   {
     name: "Network +",
