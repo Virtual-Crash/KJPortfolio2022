@@ -10,13 +10,14 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/SocialLoopz.png";
-import project2 from "../images/Lib.png";
-import project3 from "../images/Hang.png";
-import project4 from "../images/Pokemon.png";
-import project5 from "../images/CompTIA Network+ Badge.png";
-import project6 from "../images/CompTIA A+ Badge.png";
-import project7 from "../images/Microsoft.png";
+import project1 from "../images/CK.png";
+import project2 from "../images/SocialLoopz.png";
+import project3 from "../images/Lib.png";
+import project4 from "../images/Hang.png";
+import project5 from "../images/Pokemon.png";
+import project6 from "../images/CompTIA Network+ Badge.png";
+import project7 from "../images/CompTIA A+ Badge.png";
+import project8 from "../images/Microsoft.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -36,56 +37,89 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
+    name: "Card Keeper",
+    tag: "Future Project",
+    langUsed: "TBD",
+    description: `Card Keeper (CK) will allow card players across multiple games to upload cards, create collections, 
+    craft decks, and challenge their friends. CK will condense the players' issues of going to various websites to figure out trades and 
+    reduce them into a single application. This vision hopes to build community across brands by keeping ease of use and player loyalty in mind. `,
+    image: project1,
+    personalLink: "",
+    infoLink: "",
+  },
+  {
     name: "Social Loopz",
+    tag: "2022 Senior Project",
+    langUsed: "TBD",
     description: `Social Loopz will provide a convenient and simple interface 
     where you and others can manage multiple social media accounts from one platform. Just like how email clients have useful features to automate tasks, 
     Social Loopz will automate common actions such as consuming feeds and posting content. We will define what a one-stop shop application 
     will look like that promotes a healthier screen time balance. `,
-    image: project1,
+    image: project2,
+    personalLink: "",
+    infoLink: "",
   },
   {
     name: "The Library",
-    description: `This is the second project I built while in school for my midterm. This implements small database features such as looking for
+    tag: "2021 Junior Project",
+    langUsed: "Javascript, CSS, HTML",
+    description: `The second project I built while in school for my midterm. This implements small database features such as looking for
     books, adding books to list, and changing a book's information already in the list. This is the first site that has a consistent feel to it.`,
-    image: project2,
-    link: "https://guarded-scrubland-77051.herokuapp.com/update-book.html",
+    image: project3,
+    personalLink: "",
+    infoLink: "https://guarded-scrubland-77051.herokuapp.com/index.html",
   },
   {
     name: "Beginner Home Page",
+    tag: "2020 Freshman Project",
+    langUsed: "JavaScript, CSS, HTML",
     description: `This is the very first web server I built while in school. As you progress through the different pages, new tools, content and skills improve.
     The pages feature implementing images, styling pages, nav bars, bootstraps, and my very first game Hangman!`,
-    image: project3,
-    link: "https://shrouded-basin-10273.herokuapp.com/index.html",
+    image: project4,
+    personalLink: "",
+    infoLink: "https://shrouded-basin-10273.herokuapp.com/index.html",
   },
   {
     name: "Pokemon API",
+    tag: "2020 Personal Project",
+    langUsed: "JavaScript, CSS, HTML",
     description: `This is the first API integration project I worked on. Currently it takes a text input and outputs information about the Pokemon
     that was referenced. I am actively working on the front-end so that it will accept user input from the web-server.`,
-    image: project4,
-    link: "https://pokemon-info.herokuapp.com/",
+    image: project5,
+    personalLink: "",
+    infoLink: "https://pokemon-info.herokuapp.com/",
   },
   {
     name: "Network +",
+    tag: "LearnKey Course",
+    langUsed: "",
     description: `CompTIA Network+ validates the technical skills needed to securely establish, maintain and
      troubleshoot the essential networks that businesses rely on. Offers skills in cloud computing best practices and 
      typical service models. Tests critical security concepts to helping networking professionals work with security practitioners. `,
-    image: project5,
-    link: "https://www.comptia.org/certifications/network",
+    image: project6,
+    personalLink: "https://www.credly.com/users/kaylajeter/badges",
+    infoLink: "https://www.comptia.org/certifications/network",
   },
   {
     name: "A+ ",
+    tag: "LearnKey Course",
+    langUsed: "",
     description: `The CompTIA A+ certification covers configuring device operating 
     systems, including Windows, Mac, Linux, Chrome OS, Android and iOS. Support of basic IT infrastructure and networking.
     Troubleshooting and problem solving core services and support challenges while applying best practices for documentation, 
     change management, and scripting `,
-    image: project6,
-    link: "https://www.comptia.org/certifications/a",
+    image: project7,
+    personalLink: "https://www.credly.com/users/kaylajeter/badges",
+    infoLink: "https://www.comptia.org/certifications/a",
   },
   {
     name: "Microsoft Suite Certified",
+    tag: "LearnKey Course",
+    langUsed: "",
     description: `Certified Specialist in Outlook, Excel, PowerPoint, and Word.`,
-    image: project7,
-    link: "https://support.microsoft.com/en-us/topic/earn-a-microsoft-office-specialist-mos-certification-0885c944-167c-51ea-1cdc-8f65952bd1b8",
+    image: project8,
+    personalLink: "https://www.credly.com/users/kaylajeter/badges",
+    infoLink: "https://support.microsoft.com/en-us/topic/earn-a-microsoft-office-specialist-mos-certification-0885c944-167c-51ea-1cdc-8f65952bd1b8",
   },
 ];
 
@@ -120,11 +154,11 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary" onClick={() => window.open(project.link)}>
-                  Info
+                <Button size="small" color="primary" onClick={() => window.open(project.personalLink)}>
+                  Link
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button size="small" color="primary"  onClick={() => window.open(project.infoLink)}>
+                  More Info
                 </Button>
               </CardActions>
             </Card>
