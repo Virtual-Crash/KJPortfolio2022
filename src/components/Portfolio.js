@@ -40,7 +40,7 @@ const projects = [
     name: "Card Keeper",
     tag: "Future Project",
     langUsed: "TBD",
-    description: `Card Keeper (CK) will allow card players across multiple games to upload cards, create collections, 
+    description: `(Future Project) Card Keeper (CK) will allow card players across multiple games to upload cards, create collections, 
     craft decks, and challenge their friends. CK will condense the players' issues of going to various websites to figure out trades and 
     reduce them into a single application. This vision hopes to build community across brands by keeping ease of use and player loyalty in mind. `,
     image: project1,
@@ -51,7 +51,7 @@ const projects = [
     name: "Social Loopz",
     tag: "2022 Senior Project",
     langUsed: "TBD",
-    description: `Social Loopz will provide a convenient and simple interface 
+    description: `The Social Loopz team will provide a convenient and simple interface 
     where you and others can manage multiple social media accounts from one platform. Just like how email clients have useful features to automate tasks, 
     Social Loopz will automate common actions such as consuming feeds and posting content. We will define what a one-stop shop application 
     will look like that promotes a healthier screen time balance. `,
