@@ -74,7 +74,7 @@ const Contact = () => {
           </Typography>
           <InputField
             fullWidth={true}
-            label="Name"
+            label="Name HI"
             variant="outlined"
             inputProps={{ className: classes.input }}
           />
